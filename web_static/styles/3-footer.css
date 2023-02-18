@@ -1,0 +1,16 @@
+/* CSS for the footer section of the html */
+footer {
+	background-color: #FFF;
+	height: 60px;
+	width: 100%;
+	border-top: #CCCCCC;
+	position: fixed;
+	bottom: 0;
+}
+
+footer p {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
