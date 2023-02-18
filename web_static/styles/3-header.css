@@ -5,3 +5,9 @@ header {
 	width: 100%;
 	border-bottom: 1px #CCCCCC;
 }
+
+header .header-image {
+	background-image: url("../images/logo.png");
+	position: relative;
+	margin: auto auto 20px;
+}
