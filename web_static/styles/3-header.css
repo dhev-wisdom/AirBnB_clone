@@ -6,7 +6,7 @@ header {
 	border-bottom: 1px #CCCCCC;
 }
 
-header .header-image {
+header div.header-image {
 	background-image: url("../images/logo.png");
 	position: relative;
 	margin: auto auto 20px;
