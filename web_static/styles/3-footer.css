@@ -3,7 +3,7 @@ footer {
 	background-color: #FFF;
 	height: 60px;
 	width: 100%;
-	border-top: #CCCCCC;
+	border-top: 1px solid #CCCCCC;
 	position: fixed;
 	bottom: 0;
 }
