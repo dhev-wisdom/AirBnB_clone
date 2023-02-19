@@ -8,13 +8,13 @@ div.container .filters {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	margin-right: 30px;
 }
 
 div.container .filters button {
 	font-size: 18px;
 	background-color: #FF5A5F;
 	color: #FFFFFF;
+	margin-right: 30px;
 	height: 48px;
 	width: 20%;
 	border: none;
