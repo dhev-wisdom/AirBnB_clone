@@ -4,6 +4,10 @@ header {
 	height: 70px;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
 }
 
 header span:before {
