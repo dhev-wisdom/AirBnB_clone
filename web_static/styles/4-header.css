@@ -1,0 +1,16 @@
+/* CSS for the header section of the html */
+header {
+	background-color: #FFF;
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+}
+
+header span:before {
+	content: url("../images/logo.png");
+}
