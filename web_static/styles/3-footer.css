@@ -3,14 +3,9 @@ footer {
 	background-color: #FFF;
 	height: 60px;
 	width: 100%;
+	position: relative;
 	border-top: 1px solid #CCCCCC;
 	display: flex;
-	align-self: flex-end;
-}
-
-footer p {
-	position: relative;
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 }
