@@ -69,13 +69,14 @@ div.container .filters .popover {
 	width: 100%;
 	position: absolute;
 	top: 100%;
+	left: 0;
 	list-style-type: none;
 	z-index: 10;
 }
 
 .filters ul.popover {
 	margin: 0;
-	margin-left: -30px;
+	box-sizing: border-box;
 	padding: 25px 50px;
 }
 
