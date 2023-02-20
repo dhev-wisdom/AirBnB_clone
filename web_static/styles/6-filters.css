@@ -59,14 +59,15 @@ div.container .filters h4 {
 }
 
 .filters ul.popover {
-	
+	display: none;
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	position: absolute;
+	position: relative;
 	bottom: 0;
+	left: 0;
 	width: 100%;
-	z-index: 10;
+	list-style-type: none;
 }
 
 .filters ul.popover:hover {
