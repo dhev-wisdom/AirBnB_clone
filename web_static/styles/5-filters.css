@@ -7,6 +7,8 @@ div.container .filters {
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
+	margin: 0;
+	padding-left: 30px;
 	outline: 2px solid red;
 }
 
@@ -14,7 +16,6 @@ div.container .filters button {
 	font-size: 18px;
 	background-color: #FF5A5F;
 	color: #FFFFFF;
-	margin-right: 30px;
 	margin-left: auto;
 	height: 48px;
 	width: 20%;
@@ -33,7 +34,7 @@ div.container .filters .locations {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	text-align: center;
 }
 
 div.container .filters .amenities {
@@ -42,7 +43,7 @@ div.container .filters .amenities {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	text-align: center;
 	margin-right: auto;
 }
 
