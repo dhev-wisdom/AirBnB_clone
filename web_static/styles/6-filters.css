@@ -68,6 +68,10 @@ div.container .filters h4 {
 	width: 100%;
 }
 
+.filters ul.popover:hover {
+	visibility: visible;
+}
+
 .filters ul.popover h2 {
 	font-size: 16px;
 }
