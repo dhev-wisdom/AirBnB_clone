@@ -7,6 +7,7 @@ div.container .filters {
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 div.container .filters button {
@@ -14,7 +15,6 @@ div.container .filters button {
 	background-color: #FF5A5F;
 	color: #FFFFFF;
 	margin-right: 30px;
-	margin-left: auto;
 	height: 48px;
 	width: 20%;
 	border: none;
