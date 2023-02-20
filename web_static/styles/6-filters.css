@@ -7,6 +7,7 @@ div.container .filters {
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 
 div.container .filters button {
@@ -50,11 +51,13 @@ div.container .filters .amenities {
 div.container .filters h3 {
 	font-weight: 600;
 	margin: 0;
+	padding: 0;
 }
 
 div.container .filters h4 {
 	font-weight: 400;
 	margin: 0;
+	padding: 0;
 	font-size: 14px;
 }
 
@@ -63,11 +66,16 @@ div.container .filters .popover {
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	width: 100%;
+	width: inherit;
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	top: 100%;
 	list-style-type: none;
+	z-index: 10;
+}
+
+.filters .popover {
+	margin: 0;
+	margin-left: -30px;
 }
 
 .popover ul li {
