@@ -59,6 +59,7 @@ div.container .filters h4 {
 }
 
 .filters ul.popover {
+	display: none;
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
@@ -69,19 +70,11 @@ div.container .filters h4 {
 	list-style-type: none;
 }
 
-div.container .filters .amenities + ul.popover {
-	display: none;
-}
-
-div.container .filters .amenities + ul.popover:hover {
+div.container .filters .amenities:hover + ul.popover {
 	display: block;
 }
 
-div.container .filters .locations + ul.popover {
-	display: none;
-}
-
-div.container .filters .locations + ul.popover:hover {
+div.container .filters .locations:hover + ul.popover {
 	display: block;
 }
 
