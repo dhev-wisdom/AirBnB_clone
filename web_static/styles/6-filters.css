@@ -59,11 +59,11 @@ div.container .filters h4 {
 }
 
 div.container .filters .popover {
-	/* display: none; */
+	display: none;
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	position: relative;
+	/* position: relative; */
 	bottom: 0;
 	left: 0;
 	width: 100%;
