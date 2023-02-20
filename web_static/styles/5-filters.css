@@ -47,9 +47,13 @@ div.container .filters .amenities {
 
 div.container .filters h3 {
 	font-weight: 600;
+	margin: 0;
+	text-align: left;
 }
 
 div.container .filters h4 {
 	font-weight: 400;
+	margin: 0;
+	text-align: left;
 	font-size: 14px;
 }
