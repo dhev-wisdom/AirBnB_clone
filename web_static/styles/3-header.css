@@ -9,9 +9,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: -20px;
+	box-sizing: border-box;
 }
 
 header span:before {
 	content: url("../images/logo.png");
+	padding-left: 20px;
 }
