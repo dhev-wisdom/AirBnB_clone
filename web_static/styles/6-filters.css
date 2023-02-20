@@ -79,6 +79,10 @@ div.container .filters .popover {
 	padding: 25px 30px;
 }
 
+.popover > li {
+	margin-bottom: 10px;
+}
+
 .popover  ul li {
 	list-style: none;
 }
