@@ -5,6 +5,7 @@
 .places div {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .places article {
@@ -13,6 +14,7 @@
 	padding: 20px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
+	box-sizing: border-box;
 }
 
 .places article h2 {
