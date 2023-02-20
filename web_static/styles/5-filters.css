@@ -32,7 +32,7 @@ div.container .filters .locations {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center; */
 }
 
 div.container .filters .amenities {
@@ -41,15 +41,15 @@ div.container .filters .amenities {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	margin-right: auto;
 }
 
-div.container .filter h3 {
+div.container .filters h3 {
 	font-weight: 600;
 }
 
-div.container .filter h4 {
+div.container .filters h4 {
 	font-weight: 400;
 	font-size: 14px;
 }
