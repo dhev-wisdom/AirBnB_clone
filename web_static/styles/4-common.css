@@ -6,9 +6,11 @@ body {
 	color: #484848;
 	font-size: 14px;
 	font-family: "Circular,Helvetica Neue,Helvetica,Arial,sans-serif";
+	outline: 2px solid red;
 }
 
 div.container {
 	max-width: 1000px;
 	margin: 30px auto;
+	outline: 2px solid red;
 }

@@ -7,6 +7,7 @@ div.container .filters {
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
+	outline: 2px solid red;
 }
 
 div.container .filters button {
@@ -48,12 +49,10 @@ div.container .filters .amenities {
 div.container .filters h3 {
 	font-weight: 600;
 	margin: 0;
-	text-align: left;
 }
 
 div.container .filters h4 {
 	font-weight: 400;
 	margin: 0;
-	text-align: left;
 	font-size: 14px;
 }
