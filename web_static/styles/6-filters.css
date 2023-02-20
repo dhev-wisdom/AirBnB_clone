@@ -63,13 +63,15 @@ div.container .filters .popover {
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	bottom: 0;
 	position: absolute;
-	width: 100%;
+	max-width: 100%;
 	list-style-type: none;
 }
 
 .popover ul li {
 	list-style: none;
+	margin: 0;
 }
 
 div.amenities:hover .popover {
