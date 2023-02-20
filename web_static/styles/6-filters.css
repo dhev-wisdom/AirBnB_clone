@@ -59,17 +59,17 @@ div.container .filters h4 {
 }
 
 .filters ul.popover {
-	visibility: hidden;
+	display: none;
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
 
 .filters ul.popover:hover {
-	visibility: visible;
+	display: block;
 }
 
 .filters ul.popover h2 {
