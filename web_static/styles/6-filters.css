@@ -66,10 +66,9 @@ div.container .filters .popover {
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	width: 100%;
+	width: inherit;
 	position: absolute;
 	top: 100%;
-	left: 0;
 	list-style-type: none;
 	z-index: 10;
 }
@@ -77,10 +76,15 @@ div.container .filters .popover {
 .filters ul.popover {
 	margin: 0;
 	box-sizing: border-box;
-	padding: 25px 50px;
+	padding: 25px 0;
 }
 
-.popover + ul, li {
+.popover > ul {
+	margin: 0 30px 10px;
+	box-sizing: border-box;
+}
+
+.popover  ul li {
 	list-style: none;
 }
 
