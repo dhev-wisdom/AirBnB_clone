@@ -73,14 +73,14 @@ div.container .filters .popover {
 	z-index: 10;
 }
 
-.filters .popover {
+.filters ul.popover {
 	margin: 0;
-	padding: 25px;
+	margin-left: -30px;
+	padding: 25px 50px;
 }
 
 .popover + ul, li {
 	list-style: none;
-	margin: 0;
 }
 
 div.amenities:hover .popover {
