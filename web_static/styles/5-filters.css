@@ -7,7 +7,6 @@ div.container .filters {
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
 div.container .filters button {
@@ -42,15 +41,14 @@ div.container .filters .amenities {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-left: auto;
+	margin-right: auto;
 }
 
 div.container .filter h3 {
 	font-weight: 600;
-	margin: 0;
 }
 
 div.container .filter h4 {
 	font-weight: 400;
 	font-size: 14px;
-	margin: 0;
+}
