@@ -31,6 +31,8 @@ div.container .filters .locations {
 	border-right: 1px solid #DDDDDD;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 div.container .filters .amenities {
@@ -38,6 +40,8 @@ div.container .filters .amenities {
 	width: 25%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	margin-right: auto;
 }
 
@@ -48,5 +52,4 @@ div.container .filters h3 {
 div.container .filters h4 {
 	font-weight: 400;
 	font-size: 14px;
-	color:red;
 }
