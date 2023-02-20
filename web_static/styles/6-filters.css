@@ -70,11 +70,11 @@ div.container .filters ul.popover {
 	list-style-type: none;
 }
 
-div.amenities:hover > .popover {
+div.amenities h3:hover > ul.popover {
 	display: block;
 }
 
-div.locations:hover > .popover {
+div.locations h3:hover > ul.popover {
 	display: block;
 }
 
