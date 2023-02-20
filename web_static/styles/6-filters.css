@@ -58,7 +58,7 @@ div.container .filters h4 {
 	font-size: 14px;
 }
 
-.filters ul.popover {
+.filters ul.popover + div {
 	display: none;
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
@@ -70,7 +70,7 @@ div.container .filters h4 {
 	list-style-type: none;
 }
 
-.filters ul.popover:hover {
+.filters ul.popover:hover + div {
 	display: block;
 }
 
