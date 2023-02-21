@@ -13,6 +13,7 @@
 .places article {
 	width: 390px;
 	margin: 20px;
+	padding: 20px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 	box-sizing: border-box;
