@@ -86,11 +86,13 @@ div.max_guest, div.number_rooms, div.number_bathrooms {
 	content: url("../images/icon_bath.png");
 }
 
+div.user {
+	margin: 0;
+	padding: 0;
+}
+
 .user, .description {
 	align-self: start;
 	text-align: start;
-}
-
-.description {
 	padding: 10px 0;
 }
