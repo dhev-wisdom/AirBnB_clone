@@ -22,6 +22,7 @@
 
 .placs article div {
 	position: relative;
+	display: inline-block;
 	padding: 0 10px 0;
 }
 
@@ -81,9 +82,7 @@ div.max_guest, div.number_rooms, div.number_bathrooms {
 	content: url("../images/icon_bath.png");
 }
 
-.places article .user,
-.places article .description {
-	align-self: flex-start;
+.user, .description {
 	text-align: start;
 	padding: 5px 0px;
 }
