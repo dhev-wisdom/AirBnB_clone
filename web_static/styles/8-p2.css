@@ -28,7 +28,6 @@
 .places article div h2 {
 	font-size: 30px;
 	text-align: center;
-	margin: 0 auto;
 	padding: 0;
 }
 
@@ -41,7 +40,7 @@
 	border: 4px solid #FF5A5F;
 	border-radius: 100%;
 	margin: 0 20px 0 auto;
-	padding: 10px 15px;
+	padding: 10px 20px;
 	min-width: 60px;
 	height: 60px;
 	font-size: 30px;
@@ -81,7 +80,7 @@ div.max_guest, div.number_rooms, div.number_bathrooms {
 .places article .user,
 .places article .description {
 	display: flex;
-	align-self: flex-start;
+	justify-self: flex-start;
 	text-align: start;
 	padding: 10px 0;
 }
