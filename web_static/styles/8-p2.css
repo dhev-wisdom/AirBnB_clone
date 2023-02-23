@@ -31,10 +31,10 @@
 
 .places article div h2 {
 	font-size: 30px;
+	margin: 0;
+	margin: auto;
 	text-align: center;
 	justify-self: center;
-	margin: 0;
-	margin-right: auto;
 	padding: 0;
 }
 
