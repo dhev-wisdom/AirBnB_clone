@@ -31,8 +31,8 @@
 
 .places article div h2 {
 	font-size: 30px;
-	margin: 0;
-	margin-right: auto;
+	margin: 0 auto;
+	/* margin-right: auto; */
 	text-align: center;
 	justify-self: center;
 	padding: 0;
