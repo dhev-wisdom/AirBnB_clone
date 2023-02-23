@@ -95,6 +95,10 @@ div.user {
 	text-align: start;
 }
 
+.user pre {
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .description {
 	padding: 5px 0;
 }
