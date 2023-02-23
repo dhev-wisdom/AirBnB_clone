@@ -89,5 +89,8 @@ div.max_guest, div.number_rooms, div.number_bathrooms {
 .user, .description {
 	align-self: start;
 	text-align: start;
-	padding: 10px 0px;
+}
+
+.description {
+	padding: 10px 0;
 }
