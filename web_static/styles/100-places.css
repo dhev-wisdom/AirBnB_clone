@@ -106,12 +106,16 @@ div.user {
 .places article div.amenities,
 .places article div.reviews {
 	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 div.amenities h2,
 div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
+	margin: 0 0 10px 0;
 }
 
 div.amenities ul,
