@@ -119,12 +119,19 @@ div.reviews h2 {
 	border-bottom: 1px solid #DDDDDD;
 	margin: 0 0 20px 0;
 	text-align: start;
+	align-self: start;
+	justify-self: start;
 	display: block;
 }
 
 div.amenities ul,
 div.reviews ul {
 	list-style-type: none;
+}
+
+div.amenities li,
+div.reviews li {
+	list-style: none;
 }
 
 div.reviews ul h3 {
