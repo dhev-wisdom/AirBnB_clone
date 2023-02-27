@@ -105,6 +105,8 @@ div.user {
 
 .places article div.amenities,
 .places article div.reviews {
+	margin: 0;
+	padding: 0;
 	margin-top: 40px;
 	display: flex;
 	flex-direction: column;
@@ -115,7 +117,9 @@ div.amenities h2,
 div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	text-align: start;
+	display: block;
 }
 
 div.amenities ul,
@@ -132,13 +136,14 @@ div.reviews ul p {
 }
 
 div.amenities ul li span.tv::before {
-	content: url("..images/icon_tv.png")
+	content: url("../images/icon_tv.png");
+	margin-right: 20px;
 }
 
-span.wifi::before {
-	content: url("..images/icon_wifi.png");
+div.amenities ul span.wifi::before {
+	content: url("../images/icon_wifi.png");
 }
 
-span.pet::before {
-	content: url("..images/icon_pets.png");
+div.amenities span.pet::before {
+	content: url("../images/icon_pets.png");
 }
