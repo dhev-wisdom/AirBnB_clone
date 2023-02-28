@@ -122,7 +122,7 @@ div.reviews h2 {
 	border-bottom: 1px solid #DDDDDD;
 	text-align: start;
 	align-self: flex-start;
-	/* margin-right: auto; */
+	margin-right: auto;
 }
 
 div.amenities ul,
