@@ -140,17 +140,17 @@
   line-height: 1.5;
 }
 
-.places article .amenities ul .amenity-tv {
+.places article .amenities ul .tv {
   background: url("../images/icon_tv.png") no-repeat left;
   background-size: 6%;
 }
 
-.places article .amenities ul .amenity-wifi {
+.places article .amenities ul .wifi {
   background: url("../images/icon_wifi.png") no-repeat left;
   background-size: 6%;
 }
 
-.places article .amenities ul .amenity-pets {
+.places article .amenities ul .pets {
   background: url("../images/icon_pets.png") no-repeat left;
   background-size: 6%;
 }
