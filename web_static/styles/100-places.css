@@ -146,29 +146,31 @@ div.reviews ul p {
 	margin: 5px 0 20px 0;
 }
 
-div.amenities ul li.tv::before {
+div.amenities ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.amenities ul li span.tv {
 	content: url("../images/icon_tv.png");
 	margin: 0;
 	padding: 0;
 	margin-right: 10px;
-	list-style-type: none;
 	font-size: 30%;
 }
 
-div.amenities ul li.wifi::before {
+div.amenities ul li span.wifi {
 	content: url("../images/icon_wifi.png");
 	margin: 0;
 	padding: 0;
 	margin-right: 10px;
-	list-style-type: none;
 	font-size: 30%;
 }
 
-div.amenities ul li.pet::before {
+div.amenities ul li span.pet {
 	content: url("../images/icon_pets.png");
 	margin: 0;
 	padding: 0;
 	margin-right: 10px;
-	list-style-type: none;
-	font-size: 30%;
+	font-size: 10%;
 }
