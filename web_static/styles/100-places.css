@@ -117,40 +117,41 @@ div.amenities h2,
 div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
-	margin: 0 0 20px 0;
-	text-align: start;
-	align-self: start;
-	justify-self: start;
+	margin: 0 auto 20px 0;
 	display: block;
 }
 
 div.amenities ul,
 div.reviews ul {
-	list-style-type: none;
+	list-style: none;
+	padding: 0;
 }
 
 div.amenities li,
 div.reviews li {
-	list-style: none;
+	list-style-type: none;
 }
 
 div.reviews ul h3 {
 	font-size: 14px;
+	margin-bottom: 0;
 }
 
 div.reviews ul p {
 	font-size: 12px;
 }
 
-div.amenities ul li span.tv::before {
+div.amenities ul li.tv::before {
 	content: url("../images/icon_tv.png");
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
-div.amenities ul span.wifi::before {
+div.amenities ul li.wifi::before {
 	content: url("../images/icon_wifi.png");
+	margin-right: 10px;
 }
 
-div.amenities span.pet::before {
+div.amenities ul li.pet::before {
 	content: url("../images/icon_pets.png");
+	margin-right: 10px;
 }
