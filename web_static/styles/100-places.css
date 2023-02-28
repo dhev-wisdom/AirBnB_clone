@@ -109,15 +109,16 @@ div.user {
 	padding: 0;
 	margin-top: 40px;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	/* flex-direction: column; */
+	/* align-items: flex-start; */
+	text-align: text-start;
+	width: 100%;
 }
 
 div.amenities h2,
 div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
-	margin: 0 auto 20px 0;
 	display: block;
 }
 
@@ -144,14 +145,17 @@ div.reviews ul p {
 div.amenities ul li.tv::before {
 	content: url("../images/icon_tv.png");
 	margin-right: 10px;
+	font-size: 20%;
 }
 
 div.amenities ul li.wifi::before {
 	content: url("../images/icon_wifi.png");
 	margin-right: 10px;
+	font-size: 10%;
 }
 
 div.amenities ul li.pet::before {
 	content: url("../images/icon_pets.png");
 	margin-right: 10px;
+	font-size: 30%;
 }
