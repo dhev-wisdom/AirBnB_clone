@@ -121,8 +121,6 @@ div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
 	text-align: start;
-	align-self: flex-start;
-	margin-right: auto;
 }
 
 div.amenities ul,
@@ -151,26 +149,18 @@ div.amenities ul li {
 	padding: 0;
 	list-style-type: none;
 }
-div.amenities ul li span.tv {
-	content: url("../images/icon_tv.png");
-	margin: 0;
-	padding: 0;
-	margin-right: 10px;
-	font-size: 30%;
+
+div.amenities ul .tv {
+	background: url("../images/icon_tv.png") no-repeat left;
+	background-size: 6%;
 }
 
-div.amenities ul li span.wifi {
-	content: url("../images/icon_wifi.png");
-	margin: 0;
-	padding: 0;
-	margin-right: 10px;
-	font-size: 30%;
+div.amenities ul .wifi {
+	background: url("../images/icon_wifi.png") no-repeat left;
+	background-size: 6%;
 }
 
-div.amenities ul li span.pet {
-	content: url("../images/icon_pets.png");
-	margin: 0;
-	padding: 0;
-	margin-right: 10px;
-	font-size: 10%;
+div.amenities ul .pet {
+	background: url("../images/icon_pets.png") no-repeat left;
+	background-size: 6%;
 }
