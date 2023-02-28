@@ -109,9 +109,7 @@ div.user {
 	padding: 0;
 	margin-top: 40px;
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	align-self:flex-start;
+	align-self: flex-start;
 	text-align: start;
 	width: 100%;
 }
@@ -121,8 +119,6 @@ div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
 	text-align: start;
-	width: 100%;
-	display: block;
 }
 
 div.amenities ul,
@@ -138,12 +134,11 @@ div.reviews li {
 
 div.reviews ul h3 {
 	font-size: 14px;
-	margin: 0;
 }
 
 div.reviews ul p {
 	font-size: 12px;
-	margin: 0 0 10px 0;
+	margin: 5px 0 15px 0;
 }
 
 div.amenities ul li.tv::before {
